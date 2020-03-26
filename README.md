@@ -65,7 +65,7 @@ Prennez un peu de temps maintenent pour vous balader dans cette jungle au mervei
 
 ### configuration des extensions
 
-Ouvrez les paramètres (raccourcis cl... :yum:).
+Ouvrez les paramètres (raccourcis cl... :no_mouth:).
 
 Vous avez le choix entre plusieurs onglets en haut à gauche. Sélectionnez celui des extension. Choisissez ensuite l'extension que vous voulez configurer.
 
@@ -77,12 +77,24 @@ reproduisez les étape du topic précedent pour l'extension Doxygen.
 
 N'hésitez pas à tout casser dans les configuration (de l'extension bien sur...) car elles peuvent toutes être reset.
 
-Les ficher sources sont à votre disposition pour différent testes.
+Les ficher sources sont à votre disposition pour différents testes.
 
 ---
 
 ## Gestion de git
 
+VSCode propose un outil pour la gestion de git très performent.
+
+Ctrl + Shift + g pour y accéder. Vous y trouverez déjà plusieurs fichiers. Commençons par les icônes en haut. La première ne sert à rien, les quatre autres sont utile et servent respectivement à changer l'arborésence des fichier, valider le commit, refresh le gestionaire et un menu avec beaucoups d'action très utile que je vous invite à examiner.
+
+La seconde partie est tout simplement le champs dans le quelle vous allez entré le message de votre commit.
+
+Et enfin la troisième partie est la pour connaître et gerer les statues de vos fichier et aussi gerer quel fichier vous voulez intégré à votre commit.
+
 ---
 
 ## Le debogueur
+
+---
+
+## Les tasks
