@@ -21,7 +21,7 @@ Fenêtre de configuration: Ctrl + k + s ou File > Preferences > Keyboard Shortcu
 |   Ctrl + Shift + p   |       ouvre le pannaux de commande       |
 |       Ctrl + ,       |           ouvre les paramètres           |
 |       Ctrl + h       |                 remplace                 |
-|     Alt + Click      |            ajoute un curseur             |
+|     Alt + Click      |            ajouter un curseur            |
 |  Ctrl + Alt + ↑ / ↓  |   ajoute une curseur vers le haut/bas    |
 |      Ctrl + f2       | sélectione les occurence de la sélection |
 |     Ctrl + space     |     ouvre le pannaux des suggestions     |
@@ -53,9 +53,31 @@ Un outil pour génerer des snippets: <https://snippet-generator.app/>
 
 ## Les extension
 
+Les extension VSCode son outil **FABULEUX** qui va vous changer la vie :heart_eyes:.
+
+il en existe de toute sorte et pour n'importe quoi.
+
+Ctrl + Shift + x pour accèder au pannaux des extension.
+
+Je vous invite à rechercher l'enxtension Code Spell Checker et lire de descriptif de l'extension (fini les fautes de norme pour des nom de variable qui n'existe pas).
+
+Prennez un peu de temps maintenent pour vous balader dans cette jungle au merveille :grin:.
+
 ### configuration des extensions
 
+Ouvrez les paramètres (raccourcis cl... :yum:).
+
+Vous avez le choix entre plusieurs onglets en haut à gauche. Sélectionnez celui des extension. Choisissez ensuite l'extension que vous voulez configurer.
+
 ### Un example avec Doxygen
+
+Si vous n'avez pas l'extension d'installer: Doxygen Documentation Generator
+
+reproduisez les étape du topic précedent pour l'extension Doxygen.
+
+N'hésitez pas à tout casser dans les configuration (de l'extension bien sur...) car elles peuvent toutes être reset.
+
+Les ficher sources sont à votre disposition pour différent testes.
 
 ---
 
