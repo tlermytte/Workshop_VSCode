@@ -1,4 +1,4 @@
-# Workshop_VSCode
+# Coder rapidement et efficacement
 
 ---
 
@@ -33,35 +33,35 @@ Pour plus d'information concernent les raccourcie clavier: <https://code.visuals
 
 ## Les user snippets
 
-Un user snippet est un "bout" de code que vous allez pouvoir ajouter automatiquement en tapant une commande dans l'éditeur.
+Un user snippet est un bout de code que vous allez pouvoir ajouter automatiquement en tapant une commande dans l'éditeur.
 
-je vous invite, dans le fichier test.js, à taper "log" et de valider la suggestion intellisens (Si aucune suggestion n'apparaît référer vous au topic précedent sur les raccourcies clavier :wink:).
+je vous invite, dans le fichier test.js, à taper log et de valider la suggestion intellisens (si aucune suggestion n'apparaît référer vous à la rubrique précèdent sur les raccourcies clavier :wink:).
 
 ### création de snippets
 
-Dans un premier temps ouvrez le pannaux de commande (raccourcie clavier :stuck_out_tongue_winking_eye:) et tappez "snippet" et sélectionnez la commande "Preference: Configure User Snippets".
+Dans un premier temps ouvrez le panneau de commande (raccourcie clavier :stuck_out_tongue_winking_eye:) et tapez "snippet" et sélectionnez la commande "Preference: Configure User Snippets".
 
-Choisissez le langage dans le vous voulez ajouter des snippets.
+Choisissez le langage dans lequel vous voulez ajouter des snippets.
 
-Si vous n'avez jamais experimenter les snippets il y a du code commenté avec des instruction et un example (ne passer pas à côter de la lecture des instruction, vous pourriez manquer des infos interéssantes).
+Si vous n'avez jamais expérimenter les snippets il y a du code commenté avec des instructions et un exemple (ne passez pas à côté de la lecture des instructions, vous pourriez manquer des informations intéressantes).
 
 Je vous laisse donc vous amusez un peu avec ce nouveau jouer :grin:.
 
-Un outil pour génerer des snippets: <https://snippet-generator.app/>
+Un outil pour générer des snippets: <https://snippet-generator.app/>
 
 ---
 
 ## Les extension
 
-Les extension VSCode son outil **FABULEUX** qui va vous changer la vie :heart_eyes:.
+Les extensions VSCode son outil **FABULEUX** qui va vous changer la vie :heart_eyes:.
 
 il en existe de toute sorte et pour n'importe quoi.
 
-Ctrl + Shift + x pour accèder au pannaux des extension.
+Ctrl + Shift + x pour accéder au panneau des extensions.
 
-Je vous invite à rechercher l'enxtension Code Spell Checker et lire de descriptif de l'extension (fini les fautes de norme pour des nom de variable qui n'existe pas).
+Je vous invite à rechercher l'extension Code Spell Checker et lire de descriptif de l'extension (fini les fautes de norme pour des noms de variable qui n'existe pas).
 
-Prennez un peu de temps maintenent pour vous balader dans cette jungle au merveille :grin:.
+Prenez un peu de temps maintenant pour vous balader dans cette jungle au merveille :grin:.
 
 ### configuration des extensions
 
@@ -71,13 +71,13 @@ Vous avez le choix entre plusieurs onglets en haut à gauche. Sélectionnez celu
 
 ### Un example avec Doxygen
 
-Si vous n'avez pas l'extension d'installer: Doxygen Documentation Generator
+Si vous n'avez pas l'extension d'installer: Doxygen Documentation Generator.
 
-reproduisez les étape du topic précedent pour l'extension Doxygen.
+Reproduisez les étapes de la rubrique précèdent pour l'extension Doxygen.
 
-N'hésitez pas à tout casser dans les configuration (de l'extension bien sur...) car elles peuvent toutes être reset.
+N'hésitez pas à tout casser dans les configurations (de l'extension bien sûr...) car elles peuvent toutes être reset.
 
-Les ficher sources sont à votre disposition pour différents testes.
+Les fichiers sources sont à votre disposition pour différents testes.
 
 ---
 
@@ -90,6 +90,8 @@ Ctrl + Shift + g pour y accéder. Vous y trouverez déjà plusieurs fichiers. Co
 La seconde partie est tout simplement le champs dans le quelle vous allez entré le message de votre commit.
 
 Et enfin la troisième partie est la pour connaître et gerer les statues de vos fichier et aussi gerer quel fichier vous voulez intégré à votre commit.
+
+![git GUI](image/git_gui.PNG)
 
 ---
 
