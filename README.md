@@ -79,6 +79,8 @@ N'hésitez pas à tout casser dans les configurations (de l'extension bien sûr.
 
 Les fichiers sources sont à votre disposition pour différents testes.
 
+> un chouette article à examiner : <https://medium.com/swlh/60-extensions-to-supercharge-visual-studio-code-2f93a51b3cf4>
+
 ---
 
 ## Gestion de git
