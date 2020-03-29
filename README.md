@@ -6,11 +6,11 @@ Le but de ce workshop est de découvrir l'éditeur de code **Visual Studio Code*
 Nous allons évoqués les points suivants :
 
 - [L'installation](#Installation)
-- Workflow
-  - ouvrir un fichier
-  - ouvrir un project
-  - créer un fichier/dossier
-  - Naviguer dans l'éditeur
+- [Les Bases](#WorkFlow)
+  - [ouvrir un fichier](#ouvrir-un-fichier)
+  - [ouvrir un project](#ouvrir-un-projet)
+  - [créer un fichier](#créer-un-fichier)
+  - [Sauvegarder](#Sauvegarder-un-fichier)
 - [Les raccourcis clavier](#les-raccourcis-clavier)
   - [Tout les raccourcis clavier](#configurer-ces-raccourcis-clavier)
   - [Une poigné de raccourcis utiles](#Des-raccourcies-clavier-utils)
@@ -22,7 +22,8 @@ Nous allons évoqués les points suivants :
   - [Configurer une extension](#configuration-des-extensions)
   - [Un exemple](#Un-example-avec-Doxygen)
 - [La gestion d'un project avec git](#Gestion-de-git)
-- [Comment debugger un programe programe](#Le-debogueur)
+- [Les tasks](#les-tasks)
+- [Comment debugger un programe](#Le-debogueur)
 
 ---
 
@@ -40,7 +41,7 @@ Une fois Visual Studio code installer vous pouvez l'ouvrir en tapant la commande
 $> code
 ```
 
-Une fois l'application ouverte vous pouvez ouvrir un fichier grâce au raccourcis clavier **Ctrl + o** ou utitliser l'interface graphique en allant cliquer en haut à gauche sur File puis sur la ligne Ouvrir un fichier.
+Une fois l'application ouverte vous pouvez ouvrir un fichier grâce au raccourcis clavier **Ctrl + o** ou utitliser l'interface graphique en allant cliquer en haut à gauche sur File puis sur la ligne `Ouvrir un fichier`.
 
 ![Ouvrir une Fichier](./images/OuvrirUnFichier.png)
 
@@ -49,6 +50,37 @@ Une fois l'application ouverte vous pouvez ouvrir un fichier grâce au raccourci
 ```
 $> code ./Path/To/File
 ```
+
+### Ouvrir un projet
+
+Pour ouvrir directement un projet, plusieur méthode s'offre à vous :
+
+```
+$> code path/to/folder
+```
+
+ou une fois l'application ouverte
+**Ctrl + k, Ctrl + o**
+
+> Ou en utilisant l'interface graphique en allant cliquer en haut à gauche sur File puis sur la ligne `Ouvrir un Dossier`
+
+### Créer un fichier
+
+Quoi de plus basic comme commande pour un éditeur de texte que de créer un fichier afin de pouvoir commencer à éditer du texte.
+
+Et bien sur `vscode` la marche à suivre est la suivante:
+
+- sur l'interface graphique de même que pour créer un fichier Cliquer sur File puis choisissez la ligne `New File`
+- Ou le raccourcis clavier **Ctrl + n**
+- Ou la commande sur le terminal :
+
+```
+$> code NameOfTheNewFile
+```
+
+### Sauvegarder un fichier
+
+Pour sauvegarder vos changement ils vous suffit d'utiliser le raccourcis clavier **Ctrl + s**
 
 ## **Les raccourcis clavier**
 
@@ -212,15 +244,13 @@ On vous laisse faire les autres actions :
 
 ## Le debogueur
 
-### Le débogage
-
-#### Introduction
+### Introduction
 
 Le débugage est l'action d'enlever les bugs, et pour faciliter cette actions de trouver et enlever les bugs, des débuggueurs ont été inventés.
 
 Il se trouve que **Visual Studio Code** possède un support natif pour un débogueur Javascript capable de prendre en charge tout language pouvant être compiler en javascript.
 
-#### Comment utiliser le débugger intégrér
+### Comment utiliser le débugger intégrér
 
 _On se familiarise avec le debugger intégré_
 
