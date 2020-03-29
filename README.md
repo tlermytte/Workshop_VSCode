@@ -30,7 +30,6 @@ Nous allons évoqués les points suivants :
 
 Pour installer vscode sur votre machine on vous conseil de suivre ce [lien](https://code.visualstudio.com/download) qui mène directement au site officiel de l'éditeur qui vous aide pour installer leur outil, selon l'OS sur lequel vous vous trouver.
 
-
 ## WorkFlow
 
 ### Ouvrir un fichier
@@ -76,7 +75,7 @@ Fenêtre de configuration: Ctrl + k + s ou File > Preferences > Keyboard Shortcu
 |     Ctrl + space     |     ouvre le pannaux des suggestions     |
 |     Ctrl + k + x     |     supprime les indentaion en trop      |
 
-Pour plus d'information concernent les raccourcie clavier: <https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf>
+Pour plus d'information concernent les [raccourcie clavier](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf).
 
 ---
 
@@ -98,7 +97,7 @@ Si vous n'avez jamais expérimenter les snippets il y a du code commenté avec d
 
 Je vous laisse donc vous amusez un peu avec ce nouveau jouer :grin:.
 
-Un outil pour générer des snippets: <https://snippet-generator.app/>
+Un outil pour générer des [snippets](https://snippet-generator.app/).
 
 ---
 
@@ -132,7 +131,7 @@ N'hésitez pas à tout casser dans les configurations (de l'extension bien sûr.
 
 Les fichiers sources sont à votre disposition pour différents testes.
 
-> un chouette article à examiner : <https://medium.com/swlh/60-extensions-to-supercharge-visual-studio-code-2f93a51b3cf4>
+Un chouette [article](https://medium.com/swlh/60-extensions-to-supercharge-visual-studio-code-2f93a51b3cf4) à examiner.
 
 ---
 
