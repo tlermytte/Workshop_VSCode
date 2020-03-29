@@ -3,16 +3,16 @@
 Bonjour, et bienvenu dans ce workshop sur la thématique de **Visual Studio Code** _l'éditeur de code extensible, multiplateforme et open source_ dévelloppé par **Microsoft**.
 
 Le but de ce workshop est de découvrir l'éditeur de code **Visual Studio Code**.
-Nous allons évoqués les points suivants :
+Nous allons évoquer les points suivants :
 
 - [L'installation](#Installation)
 - [Les Bases](#WorkFlow)
-  - [ouvrir un fichier](#ouvrir-un-fichier)
-  - [ouvrir un projet](#ouvrir-un-projet)
-  - [créer un fichier](#créer-un-fichier)
+  - [Ouvrir un fichier](#ouvrir-un-fichier)
+  - [Ouvrir un projet](#ouvrir-un-projet)
+  - [Créer un fichier](#créer-un-fichier)
   - [Sauvegarder](#Sauvegarder-un-fichier)
 - [Les raccourcis clavier](#les-raccourcis-clavier)
-  - [Tous les raccourcis clavier](#configurer-ces-raccourcis-clavier)
+  - [Tous les raccourcis claviers](#configurer-ces-raccourcis-clavier)
   - [Une poigné de raccourcis utiles](#Des-raccourcies-clavier-utils)
 - [Les snippets](#les-users-snippets)
   - [Qu'est-ce que c'est ?](#qu'est-ce-que-c'est)
@@ -71,7 +71,7 @@ Quoi de plus basic comme commande pour un éditeur de texte que de créer un fic
 Et bien sur `vscode` la marche à suivre est la suivante:
 
 - sur l'interface graphique de même que pour créer un fichier Cliquer sur File puis choisissez la ligne `New File`
-- Ou le raccourcis clavier **Ctrl + n**
+- Ou le raccourci clavier **Ctrl + n**
 - Ou la commande sur le terminal :
 
 ```
@@ -80,11 +80,11 @@ $> code NameOfTheNewFile
 
 ### Sauvegarder un fichier
 
-Pour sauvegarder vos changement ils vous suffit d'utiliser le raccourcis clavier **Ctrl + s**
+Pour sauvegarder vos changement ils vous suffit d'utiliser le raccourci clavier **Ctrl + s**
 
-## **Les raccourcis clavier**
+## **Les raccourcis claviers**
 
-### configurer les raccourcis clavier
+### configurer les raccourcis claviers
 
 Fenêtre de configuration: **Ctrl + k + s** ou File > Preferences > Keyboard Shortcuts.
 
