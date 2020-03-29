@@ -1,6 +1,6 @@
 # Coder rapidement et efficacement
 
-Bonjour, et bienvenu dans ce workshop sur la thématique de **Visual Studio Code** _l'éditeur de code extensible, multi-platforme et open source_ dévellopé par **Microsoft**.
+Bonjour, et bienvenu dans ce workshop sur la thématique de **Visual Studio Code** _l'éditeur de code extensible, multiplateforme et open source_ dévelloppé par **Microsoft**.
 
 Le but de ce workshop est de découvrir l'éditeur de code **Visual Studio Code**.
 Nous allons évoqués les points suivants :
@@ -8,11 +8,11 @@ Nous allons évoqués les points suivants :
 - [L'installation](#Installation)
 - [Les Bases](#WorkFlow)
   - [ouvrir un fichier](#ouvrir-un-fichier)
-  - [ouvrir un project](#ouvrir-un-projet)
+  - [ouvrir un projet](#ouvrir-un-projet)
   - [créer un fichier](#créer-un-fichier)
   - [Sauvegarder](#Sauvegarder-un-fichier)
 - [Les raccourcis clavier](#les-raccourcis-clavier)
-  - [Tout les raccourcis clavier](#configurer-ces-raccourcis-clavier)
+  - [Tous les raccourcis clavier](#configurer-ces-raccourcis-clavier)
   - [Une poigné de raccourcis utiles](#Des-raccourcies-clavier-utils)
 - [Les snippets](#les-users-snippets)
   - [Qu'est-ce que c'est ?](#qu'est-ce-que-c'est)
@@ -21,9 +21,9 @@ Nous allons évoqués les points suivants :
   - [Qu'est ce que c'est ?](#Démistification)
   - [Configurer une extension](#configuration-des-extensions)
   - [Un exemple](#Un-example-avec-Doxygen)
-- [La gestion d'un project avec git](#Gestion-de-git)
+- [La gestion d'un projet avec git](#Gestion-de-git)
 - [Les tasks](#les-tasks)
-- [Comment debugger un programe](#Le-debogueur)
+- [Comment déboguer un programme](#Le-debogueur)
 
 ---
 
@@ -41,7 +41,7 @@ Une fois Visual Studio code installer vous pouvez l'ouvrir en tapant la commande
 $> code
 ```
 
-Une fois l'application ouverte vous pouvez ouvrir un fichier grâce au raccourcis clavier **Ctrl + o** ou utitliser l'interface graphique en allant cliquer en haut à gauche sur File puis sur la ligne `Ouvrir un fichier`.
+Une fois l'application ouverte vous pouvez ouvrir un fichier grâce au raccourcis clavier **Ctrl + o** ou utiliser l'interface graphique en allant cliquer en haut à gauche sur File puis sur la ligne `Ouvrir un fichier`.
 
 ![Ouvrir une Fichier](./images/OuvrirUnFichier.png)
 
@@ -84,7 +84,7 @@ Pour sauvegarder vos changement ils vous suffit d'utiliser le raccourcis clavier
 
 ## **Les raccourcis clavier**
 
-### configurer ces raccourcis clavier
+### configurer les raccourcis clavier
 
 Fenêtre de configuration: **Ctrl + k + s** ou File > Preferences > Keyboard Shortcuts.
 
@@ -94,20 +94,20 @@ Fenêtre de configuration: **Ctrl + k + s** ou File > Preferences > Keyboard Sho
 | :------------------: | :-----------------------------------------: |
 |     Alt + ↑ / ↓      |       bouge la ligne vers le haut/bas       |
 |   Ctrl + shift + k   |              supprime la ligne              |
-| Ctrl + shift + Enter |         insert une ligne au-dessus          |
-|       Ctrl + /       |       commenter/decommenter une ligne       |
+| Ctrl + shift + Enter |         insère une ligne au-dessus          |
+|       Ctrl + /       |       commenter/décommenter une ligne       |
 |       Ctrl + t       |            recherche par symbole            |
 |       Ctrl + p       |      navigation à travers les fichiers      |
 |   Ctrl + Shift + p   |        ouvre le panneau de commande         |
 |       Ctrl + ,       |            ouvre les paramètres             |
 |       Ctrl + h       |                  remplace                   |
 |     Alt + Click      |             ajouter un curseur              |
-|  Ctrl + Alt + ↑ / ↓  |     ajoute un curseur vers le haut/bas      |
+|  Ctrl + Alt + ↑ / ↓  |     ajouter un curseur vers le haut/bas     |
 |      Ctrl + f2       | sélectionne les occurrences de la sélection |
 |     Ctrl + space     |      ouvre le panneau des suggestions       |
 |     Ctrl + k + x     |      supprime les indentations en trop      |
 
-Pour plus d'information concernent les [raccourcie clavier](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf).
+Pour plus d'information concernant les [raccourcie clavier](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf).
 
 ---
 
@@ -117,11 +117,11 @@ Pour plus d'information concernent les [raccourcie clavier](https://code.visuals
 
 Un user snippet est un bout de code que vous allez pouvoir ajouter automatiquement en tapant une commande dans l'éditeur.
 
-je vous invite, dans le fichier test.js, à taper log et de valider la suggestion intellisens (si aucune suggestion n'apparaît référer vous à la rubrique précèdent sur les raccourcies clavier :wink:).
+je vous invite, dans le fichier test.js, à taper log et de valider la suggestion intellisens (si aucune suggestion n'apparaît référez vous à la rubrique précèdent sur les raccourcies clavier :wink:).
 
 ### création de snippets
 
-Dans un premier temps ouvrez le panneau de commande (raccourcie clavier :stuck_out_tongue_winking_eye:) et tapez "snippet" et sélectionnez la commande "Preference: Configure User Snippets".
+Dans un premier temps ouvrez le panneau de commande (raccourcie clavier :stuck_out_tongue_winking_eye:) et tapez "snippet" et sélectionnez la commande "Préférence: Configure User Snippets".
 
 Choisissez le langage dans lequel vous voulez ajouter des snippets.
 
@@ -135,7 +135,7 @@ Un outil pour générer des [snippets](https://snippet-generator.app/).
 
 ## Les extensions
 
-### Démistification
+### Démystification
 
 Les extensions VSCode son outil **FABULEUX** qui va vous changer la vie :heart_eyes:.
 
@@ -143,7 +143,7 @@ il en existe de toute sorte et pour n'importe quoi.
 
 **Ctrl + Shift + x** pour accéder au panneau des extensions.
 
-Je vous invite à rechercher l'extension Code Spell Checker et lire de descriptif de l'extension (fini les fautes de norme pour des noms de variable qui n'existe pas).
+Je vous invite à rechercher l'extension Code Spell Checker et lire la description de l'extension (fini les fautes de norme pour des noms de variable qui n'existe pas).
 
 Prenez un peu de temps maintenant pour vous balader dans cette jungle au merveille :grin:.
 
@@ -153,7 +153,7 @@ Ouvrez les paramètres (raccourcis cl... :no_mouth:).
 
 Vous avez le choix entre plusieurs onglets en haut à gauche. Sélectionnez celui des extensions. Choisissez ensuite l'extension que vous voulez configurer.
 
-### Un example avec Doxygen
+### Un exemple avec Doxygen
 
 Si vous n'avez pas l'extension d'installer: Doxygen Documentation Generator.
 
@@ -187,20 +187,20 @@ Les task sont un moyen pour interfacer votre projet et votre éditeur de code !
 
 ### Interfacer un Makefile
 
-Dans nos projets à Epitech nous sommes souvent amener à créer des Makefiles pour :
+Dans nos projets à Epitech nous sommes souvent amenés à créer des Makefiles pour :
 
 - compiler notre projets en mode release
 - nettoyer notre repo
 - lancer nos tests
-- compiler notre programe en mode debug
+- compiler notre programme en mode debug
 
-Ici nous allons grâce aux task faire en sorte de ne plus avoir à taper les commandes dans notre terminal pour effecuter ces actions.
+Ici nous allons grâce aux task faire en sorte de ne plus avoir à taper les commandes dans notre terminal pour effectuer ces actions.
 
 #### Introduction
 
-Pour cela je vous invite à faire **Ctrl + Maj + p** et à entre dans le prompt "task" une serie d'action vont vous être proposé, choissisez `Configure task`, si vous n'en avez fait, on va vous demandez si vous voulez créer le fichier `tasks.json` qui va être le fichier de configuration de vos tasks à partir d'une template choissiez `Others`.
+Pour cela je vous invite à faire **Ctrl + Maj + p** et à entre dans le prompt "task" une série d'action vont vous être proposé, choisissez `Configure task`, si vous n'en avez fait, on va vous demandez si vous voulez créer le fichier `tasks.json` qui va être le fichier de configuration de vos tasks à partir d'une template choisissez `Others`.
 
-Vscode va alors créers pour vous un exemple de task basic dans le fichier `tasks.json`
+Vscode va alors créés pour vous un exemple de task basic dans le fichier `tasks.json`
 ![default task json](./images/DefaultTaskJSON.png)
 
 Nous allons essayer de lancer cette tâche !
@@ -242,42 +242,42 @@ On vous laisse faire les autres actions :
 
 ---
 
-## Le debogueur
+## Le débogueur
 
 ### Introduction
 
-Le débugage est l'action d'enlever les bugs, et pour faciliter cette actions de trouver et enlever les bugs, des débuggueurs ont été inventés.
+Le débogage est l'action d'enlever les bugs, et pour faciliter cette actions de trouver et enlever les bugs, des débogueurs ont été inventés.
 
-Il se trouve que **Visual Studio Code** possède un support natif pour un débogueur Javascript capable de prendre en charge tout language pouvant être compiler en javascript.
+Il se trouve que **Visual Studio Code** possède un support natif pour un débogueur Javascript capable de prendre en charge tout langage pouvant être compilé en javascript.
 
-### Comment utiliser le débugger intégrér
+### Comment utiliser le déboguer intégré
 
 _On se familiarise avec le debugger intégré_
 
 C'est le quatrième icons sur la droite ou le raccourcis **Ctrl + k, Ctrl + s**.
 
-- Pour le lancer il vous suffit d'aller sur un fichier que vous voulez débugger et appuyer soit sur le bouton de l'interface à droite ou sur le raccourcis clavier **F5**.
+- Pour le lancer il vous suffit d'aller sur un fichier que vous voulez déboguer et appuyez soit sur le bouton de l'interface à droite ou sur le raccourcis clavier **F5**.
   Essayer avec le fichier `test.js`.
 
-Si vous avez reussi vous devriez avoir un output similaire devant vous.
+Si vous avez réussi vous devriez avoir un output similaire devant vous.
 
-![Sortie du programe en mode débuguer](./images/OutputDebogueur.png)
+![Sortie du programme en mode débuguer](./images/OutputDebogueur.png)
 
-En guise d'exemple mettez un "point d'arret" à la ligne 19 (regarder comment faire grâce au raccourcis **Ctrl + k, Ctrl + s** ou en cliquant à gauche du nombre de la ligne).
+En guise d'exemple mettez un "point d'arrêt" à la ligne 19 (regarder comment faire grâce au raccourcis **Ctrl + k, Ctrl + s** ou en cliquant à gauche du nombre de la ligne).
 
 Lancer de nouveau le débugger !
 
 Vous devriez ce coup-ci avoir quelque chose qui ressemble à cela :
 ![Débugage en cour](./images/DebugageEnCours.png)
 
-Sur la gauche on retrouve les **variables** présentes là ou notre programe s'est arreté. Par exemple on voit bien que la variables `jeSuisUneVariable` à pour valeur `undefined`.
+Sur la gauche on retrouve les **variables** présentes là où notre programe s'est arrêté. Par exemple on voit bien que la variables `jeSuisUneVariable` à pour valeur `undefined`.
 
-Alors que si je fais avancer mon programe d'une ligne, ici grâce au bouton ![Bouton avancer d'une étape](./images/BoutonAvancerDUneEtape.png), dans la barre d'outil du débogueur ![Barre d'outil du debogueur](./images/BarreOutilDuDebogueur.png)
+Alors que si je fais avancer mon programme d'une ligne, ici grâce au bouton ![Bouton avancer d'une étape](./images/BoutonAvancerDUneEtape.png), dans la barre d'outil du débogueur ![Barre d'outil du debogueur](./images/BarreOutilDuDebogueur.png)
 
 On voit que la valeur de la variable `jeSuisUneVariable` à changer et à maintenant la valeur `42`.
 
-Vous êtes maintenant sur la ligne 21, vous êtes sur une fonction et vous aimeriez suivre l'éxecution de celle-ci : Appuyer sur F11 ou cliquer sur le bouton ![Bouton Rentre dedans](./images/BoutonRentreDedans.png) et vous voilà dans à la première ligne de votre function prêt à débugger votre function !
+Vous êtes maintenant sur la ligne 21, vous êtes sur une fonction et vous aimeriez suivre l'exécution de celle-ci : Appuyer sur F11 ou cliquer sur le bouton ![Bouton Rentre dedans](./images/BoutonRentreDedans.png) et vous voilà dans à la première ligne de votre function prêt à débugger votre function !
 
-Pour continuer l'execution du program appuyer sur **F5**.
+Pour continuer l'exécution du program appuyer sur **F5**.
 
 Pour plus d'information allez voir cette [page](https://code.visualstudio.com/docs/editor/debugging)
