@@ -54,7 +54,7 @@ $> code ./Path/To/File
 
 ### configurer ces raccourcis clavier
 
-Fenêtre de configuration: Ctrl + k + s ou File > Preferences > Keyboard Shortcuts.
+Fenêtre de configuration: **Ctrl + k + s** ou File > Preferences > Keyboard Shortcuts.
 
 ### **Des raccourcies clavier utiles**
 
@@ -109,7 +109,7 @@ Les extensions VSCode son outil **FABULEUX** qui va vous changer la vie :heart_e
 
 il en existe de toute sorte et pour n'importe quoi.
 
-Ctrl + Shift + x pour accéder au panneau des extensions.
+**Ctrl + Shift + x** pour accéder au panneau des extensions.
 
 Je vous invite à rechercher l'extension Code Spell Checker et lire de descriptif de l'extension (fini les fautes de norme pour des noms de variable qui n'existe pas).
 
