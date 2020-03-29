@@ -196,6 +196,8 @@ Dans nos projets à Epitech, nous sommes souvent amenés à créer des Makefiles
 
 Ici, nous allons grâce aux task faire en sorte de ne plus avoir à taper les commandes dans notre terminal pour effectuer ces actions.
 
+> Veuillez vous assurer de copier un de vos makefile pour voir si cela fonctionne correctement
+
 #### Introduction
 
 Pour cela je vous invite à faire **Ctrl + Maj + p** et à entre dans le prompt "task" une série d'action vont vous être proposé, choisissez `Configure task`, si vous n'en avez fait, on va vous demandez si vous voulez créer le fichier `tasks.json` qui va être le fichier de configuration de vos tasks à partir d'une template choisissez `Others`.
