@@ -41,7 +41,7 @@ Une fois Visual Studio code installer vous pouvez l'ouvrir en tapant la commande
 $> code
 ```
 
-Une fois l'application ouverte vous pouvez ouvrir un fichier grâce au raccourcis clavier **Ctrl + o** ou utiliser l'interface graphique en allant cliquer en haut à gauche sur File puis sur la ligne `Ouvrir un fichier`.
+Une fois l'application ouverte, vous pouvez ouvrir un fichier grâce aux raccourcis claviers **Ctrl + o** ou utiliser l'interface graphique en allant cliquer en haut à gauche sur File puis sur la ligne `Ouvrir un fichier`.
 
 ![Ouvrir une Fichier](./images/OuvrirUnFichier.png)
 
@@ -53,7 +53,7 @@ $> code ./Path/To/File
 
 ### Ouvrir un projet
 
-Pour ouvrir directement un projet, plusieur méthode s'offre à vous :
+Pour ouvrir directement un projet, plusieurs méthode s'offre à vous :
 
 ```
 $> code path/to/folder
@@ -80,17 +80,17 @@ $> code NameOfTheNewFile
 
 ### Sauvegarder un fichier
 
-Pour sauvegarder vos changement ils vous suffit d'utiliser le raccourci clavier **Ctrl + s**
+Pour sauvegarder vos changements, il vous suffit d'utiliser le raccourci clavier **Ctrl + s**
 
 ## **Les raccourcis claviers**
 
 ### configurer les raccourcis claviers
 
-Fenêtre de configuration: **Ctrl + k + s** ou File > Preferences > Keyboard Shortcuts.
+Fenêtre de configuration : **Ctrl + k + s** ou File > Preferences > Keyboard Shortcuts.
 
-### **Des raccourcies clavier utiles**
+### **Des raccourcies claviers utiles**
 
-|     raccourcies      |                   effets                    |
+|     Raccourcies      |                   Effets                    |
 | :------------------: | :-----------------------------------------: |
 |     Alt + ↑ / ↓      |       bouge la ligne vers le haut/bas       |
 |   Ctrl + shift + k   |              supprime la ligne              |
@@ -125,7 +125,7 @@ Dans un premier temps ouvrez le panneau de commande (raccourcie clavier :stuck_o
 
 Choisissez le langage dans lequel vous voulez ajouter des snippets.
 
-Si vous n'avez jamais expérimenter les snippets il y a du code commenté avec des instructions et un exemple (ne passez pas à côté de la lecture des instructions, vous pourriez manquer des informations intéressantes).
+Si vous n'avez jamais expérimenté les snippets il y a du code commenté avec des instructions et un exemple (ne passez pas à côté de la lecture des instructions, vous pourriez manquer des informations intéressantes).
 
 Je vous laisse donc vous amusez un peu avec ce nouveau jouer :grin:.
 
@@ -139,15 +139,15 @@ Un outil pour générer des [snippets](https://snippet-generator.app/).
 
 Les extensions VSCode son outil **FABULEUX** qui va vous changer la vie :heart_eyes:.
 
-il en existe de toute sorte et pour n'importe quoi.
+Il en existe de toute sorte et pour n'importe quoi.
 
 **Ctrl + Shift + x** pour accéder au panneau des extensions.
 
 Je vous invite à rechercher l'extension Code Spell Checker et lire la description de l'extension (fini les fautes de norme pour des noms de variable qui n'existe pas).
 
-Prenez un peu de temps maintenant pour vous balader dans cette jungle au merveille :grin:.
+Prenez un peu de temps maintenant pour vous balader dans cette jungle aux merveilles :grin:.
 
-### configuration des extensions
+### Configuration des extensions
 
 Ouvrez les paramètres (raccourcis cl... :no_mouth:).
 
@@ -155,13 +155,13 @@ Vous avez le choix entre plusieurs onglets en haut à gauche. Sélectionnez celu
 
 ### Un exemple avec Doxygen
 
-Si vous n'avez pas l'extension d'installer: Doxygen Documentation Generator.
+Si vous n'avez pas l'extension d'installer : Doxygen Documentation Generator.
 
-Reproduisez les étapes de la rubrique précèdent pour l'extension Doxygen.
+Reproduisez les étapes de la rubrique précèdant pour l'extension Doxygen.
 
 N'hésitez pas à tout casser dans les configurations (de l'extension bien sûr...) car elles peuvent toutes être reset.
 
-Les fichiers sources sont à votre disposition pour différents testes.
+Les fichiers sources sont à votre disposition pour différents test.
 
 Un chouette [article](https://medium.com/swlh/60-extensions-to-supercharge-visual-studio-code-2f93a51b3cf4) à examiner.
 
@@ -175,7 +175,7 @@ Ctrl + Shift + g pour y accéder. Vous y trouverez déjà plusieurs fichiers. Co
 
 La seconde partie est tout simplement le champ dans lequel vous allez entrer le message de votre commit.
 
-Et enfin la troisième partie est là pour connaître et gérer les statues de vos fichier et aussi gérer quel fichier vous voulez intégrer à votre commit.
+Et enfin, la troisième partie est là pour connaître et gérer les statues de vos fichiers et aussi gérer quel fichier vous voulez intégrer à votre commit.
 
 ![git GUI](images/git_gui.PNG)
 
@@ -183,40 +183,40 @@ Et enfin la troisième partie est là pour connaître et gérer les statues de v
 
 ## Les tasks
 
-Les task sont un moyen pour interfacer votre projet et votre éditeur de code !
+Les tasks sont un moyen pour interfacer votre projet et votre éditeur de code !
 
 ### Interfacer un Makefile
 
-Dans nos projets à Epitech nous sommes souvent amenés à créer des Makefiles pour :
+Dans nos projets à Epitech, nous sommes souvent amenés à créer des Makefiles pour :
 
-- compiler notre projets en mode release
-- nettoyer notre repo
-- lancer nos tests
-- compiler notre programme en mode debug
+- Compiler notre projet en mode "release"
+- Nettoyer notre repo
+- Lancer nos tests
+- Compiler notre programme en mode "debug"
 
-Ici nous allons grâce aux task faire en sorte de ne plus avoir à taper les commandes dans notre terminal pour effectuer ces actions.
+Ici, nous allons grâce aux task faire en sorte de ne plus avoir à taper les commandes dans notre terminal pour effectuer ces actions.
 
 #### Introduction
 
 Pour cela je vous invite à faire **Ctrl + Maj + p** et à entre dans le prompt "task" une série d'action vont vous être proposé, choisissez `Configure task`, si vous n'en avez fait, on va vous demandez si vous voulez créer le fichier `tasks.json` qui va être le fichier de configuration de vos tasks à partir d'une template choisissez `Others`.
 
-Vscode va alors créés pour vous un exemple de task basic dans le fichier `tasks.json`
+Vscode va alors créer pour vous un exemple de task basic dans le fichier `tasks.json`
 ![default task json](./images/DefaultTaskJSON.png)
 
 Nous allons essayer de lancer cette tâche !
 
 - **Ctrl + Maj + p**
-- On filtre les propositions en écrivant "task"
-- On choisit la commande "Run Task"
-- On choisit la task avec le nom par défaut (ici: "echo")
-- On nous propose de scanner la sortie, Choisissez ici de continuer sans scanner dans un premier temps
+- On filtre les propositions en écrivant "task".
+- On choisit la commande "Run Task".
+- On choisit la task avec le nom par défaut (ici: "echo").
+- On nous propose de scanner la sortie, Choisissez ici de continuer sans scanner dans un premier temps.
 
 Et voilà :
-![execution de la tâche par défault](./images/DefaultTaskExecution.png)
+![exécution de la tâche par défaut](./images/DefaultTaskExecution.png)
 
 #### Compiler
 
-Pour notre première tâche nous allons simplement modifier celle qui nous à été donnés par défaut.
+Pour notre première tâche nous allons simplement modifier celle, qui nous à été donnés par défaut.
 
 - Remplacer "echo Hello" par "make"
 - Remplacer "echo" par "build"
@@ -224,7 +224,7 @@ Pour notre première tâche nous allons simplement modifier celle qui nous à é
 Et voilà
 ![Compiler](./images/Compiler.png)
 
-Pour en rajouter il vont suffit de copier coller :
+Pour en rajouter, il vous suffit de copier coller :
 
 ```JSON
 {
@@ -236,8 +236,8 @@ Pour en rajouter il vont suffit de copier coller :
 
 On vous laisse faire les autres actions :
 
-- nettoyer le repo
-- compiler en mode debug
+- Nettoyer le repo
+- Compiler en mode debug
 - Compiler et lancer les tests
 
 ---
@@ -246,37 +246,37 @@ On vous laisse faire les autres actions :
 
 ### Introduction
 
-Le débogage est l'action d'enlever les bugs, et pour faciliter cette actions de trouver et enlever les bugs, des débogueurs ont été inventés.
+Le débogage est l'action d'enlever les bugs, et pour faciliter cette action de trouver et enlever les bugs, des débogueurs ont été inventés.
 
 Il se trouve que **Visual Studio Code** possède un support natif pour un débogueur Javascript capable de prendre en charge tout langage pouvant être compilé en javascript.
 
-### Comment utiliser le déboguer intégré
+### Comment utiliser le déboguer intégré ?
 
-_On se familiarise avec le debugger intégré_
+_On se familiarise avec le debugger intégré._
 
-C'est le quatrième icons sur la droite ou le raccourcis **Ctrl + k, Ctrl + s**.
+C'est le quatrième icône sur la droite ou le raccourcis **Ctrl + k, Ctrl + s**.
 
-- Pour le lancer il vous suffit d'aller sur un fichier que vous voulez déboguer et appuyez soit sur le bouton de l'interface à droite ou sur le raccourcis clavier **F5**.
+- Pour le lancer, il vous suffit d'aller sur un fichier que vous voulez déboguer et appuyez soit sur le bouton de l'interface à droite ou sur le raccourci clavier **F5**.
   Essayer avec le fichier `test.js`.
 
-Si vous avez réussi vous devriez avoir un output similaire devant vous.
+Si vous avez réussi vous devrez avoir un output similaire devant vous.
 
 ![Sortie du programme en mode débuguer](./images/OutputDebogueur.png)
 
-En guise d'exemple mettez un "point d'arrêt" à la ligne 19 (regarder comment faire grâce au raccourcis **Ctrl + k, Ctrl + s** ou en cliquant à gauche du nombre de la ligne).
+En guise d'exemple, mettez un "point d'arrêt" à la ligne 19 (regarder comment faire grâce au raccourcis **Ctrl + k, Ctrl + s**, ou en cliquant à gauche du nombre de la ligne).
 
-Lancer de nouveau le débugger !
+Lancer de nouveau le débogueur !
 
 Vous devriez ce coup-ci avoir quelque chose qui ressemble à cela :
-![Débugage en cour](./images/DebugageEnCours.png)
+![Débogage en cour](./images/DebugageEnCours.png)
 
-Sur la gauche on retrouve les **variables** présentes là où notre programe s'est arrêté. Par exemple on voit bien que la variables `jeSuisUneVariable` à pour valeur `undefined`.
+Sur la gauche, on retrouve les **variables** présentes là où notre programme s'est arrêté. Par exemple, on voit bien que la variables `jeSuisUneVariable` a pour valeur `undefined`.
 
-Alors que si je fais avancer mon programme d'une ligne, ici grâce au bouton ![Bouton avancer d'une étape](./images/BoutonAvancerDUneEtape.png), dans la barre d'outil du débogueur ![Barre d'outil du debogueur](./images/BarreOutilDuDebogueur.png)
+Alors que si je fais avancer mon programme d'une ligne, ici grâce au bouton ![Bouton avancé d'une étape](./images/BoutonAvancerDUneEtape.png), dans la barre d'outil du débogueur ![Barre d'outil du debogueur](./images/BarreOutilDuDebogueur.png)
 
 On voit que la valeur de la variable `jeSuisUneVariable` à changer et à maintenant la valeur `42`.
 
-Vous êtes maintenant sur la ligne 21, vous êtes sur une fonction et vous aimeriez suivre l'exécution de celle-ci : Appuyer sur F11 ou cliquer sur le bouton ![Bouton Rentre dedans](./images/BoutonRentreDedans.png) et vous voilà dans à la première ligne de votre function prêt à débugger votre function !
+Vous êtes maintenant sur la ligne 21, vous êtes sur une fonction et vous aimeriez suivre l'exécution de celle-ci : Appuyer sur F11 ou cliquer sur le bouton ![Bouton Rentre dedans](./images/BoutonRentreDedans.png) et vous voilà à la première ligne de votre function prêt à débugger votre function !
 
 Pour continuer l'exécution du program appuyer sur **F5**.
 
