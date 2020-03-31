@@ -90,24 +90,23 @@ Fenêtre de configuration : **Ctrl + k + s** ou File > Preferences > Keyboard Sh
 
 ### **Des raccourcies claviers utiles**
 
-|     Raccourcies      |                   Effets                    |
-| :------------------: | :-----------------------------------------: |
-|     Alt + ↑ / ↓      |       bouge la ligne vers le haut/bas       |
-|   Ctrl + shift + k   |              supprime la ligne              |
-| Ctrl + shift + Enter |         insère une ligne au-dessus          |
-|       Ctrl + /       |       commenter/décommenter une ligne       |
-|       Ctrl + t       |            recherche par symbole            |
-|       Ctrl + p       |      navigation à travers les fichiers      |
-|   Ctrl + Shift + p   |        ouvre le panneau de commande         |
-|       Ctrl + ,       |            ouvre les paramètres             |
-|       Ctrl + h       |                  remplace                   |
-|     Alt + Click      |             ajouter un curseur              |
-|  Ctrl + Alt + ↑ / ↓  |     ajouter un curseur vers le haut/bas     |
-|      Ctrl + f2       | sélectionne les occurrences de la sélection |
-|     Ctrl + space     |      ouvre le panneau des suggestions       |
-|     Ctrl + k + x     |      supprime les indentations en trop      |
+|       macOS        |     Windows      |      Linux       |                   Effets                    |
+| :----------------: | :--------------: | :--------------: | :-----------------------------------------: |
+|      ⌥↓ / ⌥↑       |    Alt+ ↓ / ↑    |    Alt+ ↓ / ↑    |       bouge la ligne vers le haut/bas       |
+|        ⇧⌘K         |   Ctrl+Shift+K   |   Ctrl+Shift+K   |              supprime la ligne              |
+|         ⌘/         |      Ctrl+/      |      Ctrl+/      |       commenter/décommenter une ligne       |
+|         ⌘T         |      Ctrl+T      |      Ctrl+T      |            recherche par symbole            |
+|         ⌘P         |      Ctrl+P      |      Ctrl+P      |      navigation à travers les fichiers      |
+|      ⇧⌘P, F1       | Ctrl+Shift+P, F1 | Ctrl+Shift+P, F1 |        ouvre le panneau de commande         |
+|         ⌘,         |      Ctrl+,      |      Ctrl+,      |            ouvre les paramètres             |
+|        ⌥⌘F         |      Ctrl+H      |      Ctrl+H      |                  remplace                   |
+|     ⌥ + click      |    Alt+Click     |    Alt+Click     |             ajouter un curseur              |
+| Ctrl + Alt + ↑ / ↓ | Ctrl+Alt+ ↑ / ↓  | Shift+Alt+ ↑ / ↓ |     ajouter un curseur vers le haut/bas     |
+|        ⌘F2         |     Ctrl+F2      |     Ctrl+F2      | sélectionne les occurrences de la sélection |
+|       ⌃Space       |    Ctrl+Space    |    Ctrl+Space    |      ouvre le panneau des suggestions       |
+|       ⌘K ⌘X        |  Ctrl+K Ctrl+X   |  Ctrl+K Ctrl+X   |      supprime les indentations en trop      |
 
-Pour plus d'information concernant les [raccourcie clavier](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf).
+Pour plus d'information concernant les raccourcie clavier : [Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf), [MacOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf), [Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf).
 
 ---
 
