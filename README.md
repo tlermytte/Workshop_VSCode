@@ -84,10 +84,6 @@ Pour sauvegarder vos changements, il vous suffit d'utiliser le raccourci clavier
 
 ## **Les raccourcis claviers**
 
-### configurer les raccourcis claviers
-
-Fenêtre de configuration : **Ctrl + k + s** ou File > Preferences > Keyboard Shortcuts.
-
 ### **Des raccourcies claviers utiles**
 
 |       macOS        |     Windows      |      Linux       |                   Effets                    |
@@ -107,6 +103,12 @@ Fenêtre de configuration : **Ctrl + k + s** ou File > Preferences > Keyboard Sh
 |       ⌘K ⌘X        |  Ctrl+K Ctrl+X   |  Ctrl+K Ctrl+X   |      supprime les indentations en trop      |
 
 Pour plus d'information concernant les raccourcie clavier : [Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf), [MacOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf), [Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf).
+
+### Le Key binding
+
+Fenêtre de configuration : **Ctrl + k + s** ou File > Preferences > Keyboard Shortcuts.
+
+il est possible de configurer des raccourcies clavier pour faire des action d'un extension ou d'un user snippet.
 
 ---
 
