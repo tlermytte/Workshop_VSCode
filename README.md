@@ -82,9 +82,9 @@ $> code NameOfTheNewFile
 
 Pour sauvegarder vos changements, il vous suffit d'utiliser le raccourci clavier **Ctrl + s**
 
-## **Les raccourcis claviers**
+## Les raccourcis claviers
 
-### **Des raccourcies claviers utiles**
+### Des raccourcies claviers utiles
 
 |       macOS        |     Windows      |      Linux       |                   Effets                    |
 | :----------------: | :--------------: | :--------------: | :-----------------------------------------: |
