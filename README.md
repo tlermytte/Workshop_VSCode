@@ -127,6 +127,8 @@ Choisissez le langage dans lequel vous voulez ajouter des snippets.
 
 Si vous n'avez jamais expérimenté les snippets il y a du code commenté avec des instructions et un exemple (ne passez pas à côté de la lecture des instructions, vous pourriez manquer des informations intéressantes).
 
+![user snippet](images/US.PNG)
+
 Je vous laisse donc vous amusez un peu avec ce nouveau jouer :grin:.
 
 Un outil pour générer des [snippets](https://snippet-generator.app/).
@@ -141,9 +143,11 @@ Les extensions VSCode son outil **FABULEUX** qui va vous changer la vie :heart_e
 
 Il en existe de toute sorte et pour n'importe quoi.
 
-**Ctrl + Shift + x** pour accéder au panneau des extensions.
+**Ctrl + Shift + x** ou appuyez sur ![extension panel](images/Extension_panel.PNG) pour accéder au panneau des extensions.
 
 Je vous invite à rechercher l'extension Code Spell Checker et lire la description de l'extension (fini les fautes de norme pour des noms de variable qui n'existe pas).
+
+![Code spell extension](images/CodeSpell.PNG)
 
 Prenez un peu de temps maintenant pour vous balader dans cette jungle aux merveilles :grin:.
 
@@ -151,11 +155,17 @@ Prenez un peu de temps maintenant pour vous balader dans cette jungle aux mervei
 
 Ouvrez les paramètres (raccourcis cl... :no_mouth:).
 
-Vous avez le choix entre plusieurs onglets en haut à gauche. Sélectionnez celui des extensions. Choisissez ensuite l'extension que vous voulez configurer.
+Vous avez le choix entre plusieurs onglets en haut à gauche.
+
+![conf topic](images/Configuration_topic.PNG)
+
+Sélectionnez celui des extensions. Choisissez ensuite l'extension que vous voulez configurer.
 
 ### Un exemple avec Doxygen
 
 Si vous n'avez pas l'extension d'installer : Doxygen Documentation Generator.
+
+![Doxygen extension](images/Doxygen.PNG)
 
 Reproduisez les étapes de la rubrique précèdant pour l'extension Doxygen.
 
@@ -171,13 +181,15 @@ Un chouette [article](https://medium.com/swlh/60-extensions-to-supercharge-visua
 
 VSCode propose un outil pour la gestion de git très efficace.
 
-Ctrl + Shift + g pour y accéder. Vous y trouverez déjà plusieurs fichiers. Commençons par les icônes en haut. La première ne sert à rien, les quatre autres sont utiles et servent respectivement à changer l'arborescence des fichiers, valider le commit, refresh le gestionnaire et un menu avec beaucoup d'action très utile que je vous invite à examiner.
+Ctrl + Shift + g ou ![git_panel](images/Git_panel.PNG) pour y accéder. Vous y trouverez déjà plusieurs fichiers. Commençons par les icônes en haut. La première ne sert à rien, les quatre autres sont utiles et servent respectivement à changer l'arborescence des fichiers ![git_icone1](images/git_icon_1.PNG), valider le commit ![git_icone2](images/git_icon_2.PNG), refresh le gestionnaire ![git_icone3](images/git_icon_3.PNG) et un menu d'action ![git_icone4](images/git_icon_4.PNG) très utile que je vous invite à examiner.
 
 La seconde partie est tout simplement le champ dans lequel vous allez entrer le message de votre commit.
 
+![commit msg](images/git_msg_comit.PNG)
+
 Et enfin, la troisième partie est là pour connaître et gérer les statues de vos fichiers et aussi gérer quel fichier vous voulez intégrer à votre commit.
 
-![git GUI](images/git_gui.PNG)
+![files](images/git_files.PNG)
 
 ---
 
